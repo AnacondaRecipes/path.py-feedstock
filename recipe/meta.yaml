@@ -1,6 +1,6 @@
 {% set name = "path.py" %}
-{% set version = "11.0" %}
-{% set checksum = "16134e5b287aba4a4125a6722e7837cf2a149fccc5000c500ae6c71a5525488b" %}
+{% set version = "11.0.1" %}
+{% set sha256 = "e7eb9d0ca4110d9b4d7c9baa0696d8c94f837d622409cefc5ec9e7c3d02ea11f" %}
 
 package:
   name: {{ name }}
@@ -9,7 +9,7 @@ package:
 source:
   fn: {{ name }}-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: {{ checksum }}
+  sha256: {{ sha256 }}
 
 build:
   number: 0
