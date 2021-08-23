@@ -13,14 +13,14 @@ source:
   sha256: {{ checksum }}
 
 build:
-  noarch: true
+  noarch: True
   number: 0
 
 requirements:
   run:
     - python >=3.5
     - path
-
+    
 test:
   imports:
     - path
